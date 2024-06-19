@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#light {
+    background-color: black;
+    overflow: hidden;
+    width: 8rem;
+    height: 22rem;
+    margin: 10rem;
+    border-radius: .5rem;
+}
+
+#light span {
+    border-radius: 50%;
+    height: 6rem;
+    width: 6rem;
+    background-color: white;
+    display: grid;
+    margin: 1rem;
+}
+
+#top_light {
+    background-color: red;
+}
+
+#middle_light {
+    background-color: yellow;
+}
+
+#bottom_light {
+    background-color: green;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+    border-radius: 1rem;
+}
+
+#yellow {
+    background-color: yellow;
+    border-radius: 1rem;
+}
+
+#green {
+    background-color: green;
+    border-radius: 1rem;
+} 
